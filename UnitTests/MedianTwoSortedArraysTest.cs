@@ -1,15 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MedianTwoSortedArrays;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MedianTwoSortedArrays.Tests
+namespace Challenges
 {
-	[TestClass()]
-	public class Challenge3Tests
+	[TestClass]
+	public class UnitTest1
 	{
 		[TestMethod()]
 		public void MedianOf13and2()
@@ -36,7 +31,7 @@ namespace MedianTwoSortedArrays.Tests
 		[TestMethod]
 		public void MedianOfEmptyand1()
 		{
-			int[] num1 = new int[] {  };
+			int[] num1 = new int[] { };
 			int[] num2 = new int[] { 1 };
 
 			Challenge3 ch3 = new Challenge3();
@@ -48,7 +43,7 @@ namespace MedianTwoSortedArrays.Tests
 		public void MedianOfEmptyand1234()
 		{
 			int[] num1 = new int[] { };
-			int[] num2 = new int[] { 1,2,3,4 };
+			int[] num2 = new int[] { 1, 2, 3, 4 };
 
 			Challenge3 ch3 = new Challenge3();
 

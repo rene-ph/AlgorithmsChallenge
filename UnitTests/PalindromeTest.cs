@@ -1,15 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Challenges;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Challenges.Tests
+namespace Challenges
 {
-	[TestClass()]
-	public class Challenge1Tests
+	[TestClass]
+	public class PalindromeTest
 	{
 		[TestMethod()]
 		public void IsPalindromeNegatives()
@@ -19,7 +14,7 @@ namespace Challenges.Tests
 		}
 
 		[TestMethod()]
-		public void IsPalindromeMinor10	()	
+		public void IsPalindromeMinor10()
 		{
 			Challenge1 ch1 = new Challenge1();
 			Assert.IsTrue(ch1.IsPalindrome(9));

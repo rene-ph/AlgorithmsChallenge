@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReverseInteger
+namespace Challenges
 {
 	public class Challenge2
 	{

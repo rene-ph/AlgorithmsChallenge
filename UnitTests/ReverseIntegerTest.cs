@@ -1,15 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ReverseInteger;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ReverseInteger.Tests
+namespace Challenges
 {
-	[TestClass()]
-	public class Challenge2Tests
+	[TestClass]
+	public class ReverseIntegerTest
 	{
 		[TestMethod()]
 		public void ReverseNumberTest()

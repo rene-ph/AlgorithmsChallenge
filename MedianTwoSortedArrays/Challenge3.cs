@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MedianTwoSortedArrays
+namespace Challenges
 {
 	public class Challenge3
 	{
