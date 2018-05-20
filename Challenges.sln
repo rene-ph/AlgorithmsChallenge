@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeTests", "PalindromeTests\PalindromeTests.csproj", "{19577AF5-9787-4A68-98E3-9A46B7DD9788}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{77643B68-5C50-4DF3-B715-61A9E04530ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIntegerTests", "ReverseIntegerTests\ReverseIntegerTests.csproj", "{C51461B2-9833-4874-B3B8-7036257A4AA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{19577AF5-9787-4A68-98E3-9A46B7DD9788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19577AF5-9787-4A68-98E3-9A46B7DD9788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19577AF5-9787-4A68-98E3-9A46B7DD9788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77643B68-5C50-4DF3-B715-61A9E04530ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77643B68-5C50-4DF3-B715-61A9E04530ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77643B68-5C50-4DF3-B715-61A9E04530ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77643B68-5C50-4DF3-B715-61A9E04530ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51461B2-9833-4874-B3B8-7036257A4AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51461B2-9833-4874-B3B8-7036257A4AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51461B2-9833-4874-B3B8-7036257A4AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51461B2-9833-4874-B3B8-7036257A4AA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
