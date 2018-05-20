@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianTwoSortedArrays", "Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianTwoSortedArraysTests", "MedianTwoSortedArraysTests\MedianTwoSortedArraysTests.csproj", "{E67FBDDB-BFCE-436A-99C5-6FB6AC4FAB83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{2E06547D-6B57-434F-8A99-E52DE9279806}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19577AF5-9787-4A68-98E3-9A46B7DD9788} = {2E06547D-6B57-434F-8A99-E52DE9279806}
+		{C51461B2-9833-4874-B3B8-7036257A4AA1} = {2E06547D-6B57-434F-8A99-E52DE9279806}
+		{E67FBDDB-BFCE-436A-99C5-6FB6AC4FAB83} = {2E06547D-6B57-434F-8A99-E52DE9279806}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB6759D1-6BBD-4A4C-831E-B9C153E99622}
