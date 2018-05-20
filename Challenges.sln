@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIntegerTests", "ReverseIntegerTests\ReverseIntegerTests.csproj", "{C51461B2-9833-4874-B3B8-7036257A4AA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianTwoSortedArrays", "MedianTwoSortedArrays\MedianTwoSortedArrays.csproj", "{689EDD6A-E74D-4131-976E-F7BC10769AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianTwoSortedArraysTests", "MedianTwoSortedArraysTests\MedianTwoSortedArraysTests.csproj", "{E67FBDDB-BFCE-436A-99C5-6FB6AC4FAB83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{C51461B2-9833-4874-B3B8-7036257A4AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C51461B2-9833-4874-B3B8-7036257A4AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C51461B2-9833-4874-B3B8-7036257A4AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689EDD6A-E74D-4131-976E-F7BC10769AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689EDD6A-E74D-4131-976E-F7BC10769AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689EDD6A-E74D-4131-976E-F7BC10769AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689EDD6A-E74D-4131-976E-F7BC10769AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67FBDDB-BFCE-436A-99C5-6FB6AC4FAB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67FBDDB-BFCE-436A-99C5-6FB6AC4FAB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67FBDDB-BFCE-436A-99C5-6FB6AC4FAB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67FBDDB-BFCE-436A-99C5-6FB6AC4FAB83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
